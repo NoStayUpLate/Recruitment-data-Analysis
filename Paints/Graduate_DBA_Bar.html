@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="bbc9015c3bf740f7ae5d494274ee9f67" class="chart-container" style="width:1500px; height:500px;"></div>
+    <script>
+        var chart_bbc9015c3bf740f7ae5d494274ee9f67 = echarts.init(
+            document.getElementById('bbc9015c3bf740f7ae5d494274ee9f67'), 'white', {renderer: 'canvas'});
+        var option_bbc9015c3bf740f7ae5d494274ee9f67 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u85aa\u8d44\u4e0b\u9650\u5e73\u5747\u503c",
+            "data": [
+                6.29,
+                6.78,
+                4.17,
+                13.17,
+                5.15,
+                8.46,
+                5.44,
+                8.74,
+                10.0
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u85aa\u8d44\u4e0a\u9650\u5e73\u5747\u503c",
+            "data": [
+                10.55,
+                10.55,
+                7.14,
+                20.94,
+                8.88,
+                13.97,
+                8.82,
+                14.32,
+                15.32
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u85aa\u8d44\u4e0b\u9650\u5e73\u5747\u503c",
+                "\u85aa\u8d44\u4e0a\u9650\u5e73\u5747\u503c"
+            ],
+            "selected": {
+                "\u85aa\u8d44\u4e0b\u9650\u5e73\u5747\u503c": true,
+                "\u85aa\u8d44\u4e0a\u9650\u5e73\u5747\u503c": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "rotate": -45,
+                "margin": 8,
+                "interval": 0
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "MySQL",
+                "Oracle",
+                "DBA\u5176\u5b83",
+                "Hive",
+                "MongoDB",
+                "ETL",
+                "SQLServer",
+                "\u6570\u636e\u4ed3\u5e93",
+                "DB2"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "DBA\u5206\u7c7b\u4e0b\u5e94\u5c4a\u6bd5\u4e1a\u751f\u7684\u804c\u4f4d\u85aa\u8d44\u4e0a\u4e0b\u9650\u67f1\u72b6\u56fe",
+            "subtext": "\u5355\u4f4d\uff1aK",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false
+        },
+        {
+            "show": true,
+            "type": "inside",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false
+        }
+    ]
+};
+        chart_bbc9015c3bf740f7ae5d494274ee9f67.setOption(option_bbc9015c3bf740f7ae5d494274ee9f67);
+    </script>
+</body>
+</html>
